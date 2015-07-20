@@ -19,6 +19,15 @@ angular.module('shitu', ['ionic'])
       }
     })
 
+    .state('tabs.discover', {
+      url: "/discover",
+      views: {
+        'discover-tab': {
+          templateUrl: "templates/discover.html"
+        }
+      }
+    })
+
     .state('tabs.appointments', {
       url: "/appointments",
       views: {
