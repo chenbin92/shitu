@@ -1,0 +1,21 @@
+/**
+* Discover page
+* --------------------------------------------------
+*/
+#discover-wrapper{
+  .classify-card{
+    position: relative;
+    > img{
+      border-radius: 5px;
+    }
+    h3{
+      position: absolute;
+      top: 40%;
+      left: 0;
+      right: 0;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+    }
+  }
+}
