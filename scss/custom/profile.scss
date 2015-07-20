@@ -1,0 +1,32 @@
+#profile{
+
+  .base-info{
+    margin-top: 12px;
+    .item-thumbnail-left{
+      min-height: 72px;
+      padding-left: 72px;
+    }
+    .avatar{
+      max-width: 52px;
+      max-height: 52px;
+      border: 1px solid #E9D9D9;
+      border-radius: 5px;
+    }
+    h2{
+      margin-top: 8px;
+    }
+  }
+
+  .item-icon-right .icon {
+    right: 11px;
+    color: #8CAFEA;
+    font-size: 18px;
+  }
+  .item-icon-right .ion-chevron-right{
+    color: #ddd;
+  }
+  .item-icon-left{
+    padding-left: 44px;
+  }
+
+}
