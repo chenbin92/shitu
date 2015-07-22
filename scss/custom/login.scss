@@ -1,0 +1,45 @@
+.login-button-group{
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  .login-button,
+  .sigin-button{
+    width: 108px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 5px;
+    border: 0;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .login-button{
+    color: #fff;
+    background: #387EF5;
+    margin-right: 10px
+  }
+  .skip-button,
+  .sigin-button{
+    color: #4f4f4f;
+    background: #fff;
+  }
+  .skip-button{
+    width: 226px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto 20px;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    position:relative;
+    i{
+      position: absolute;
+      top: 0;
+      left: 60px;
+      font-size: 20px;
+      color: rgb(56, 126, 245);
+    }
+  }
+}
