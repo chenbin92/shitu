@@ -2,9 +2,14 @@ angular.module('shitu', ['ionic'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
-  $urlRouterProvider.otherwise("/tab/home");
+  $urlRouterProvider.otherwise("/");
 
   $stateProvider
+    .state('intro', {
+      url: '/',
+      templateUrl: 'templates/intro.html'
+    })
+
     .state('tabs', {
       url: "/tab",
       abstract: true,

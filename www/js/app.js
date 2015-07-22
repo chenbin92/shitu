@@ -5,7 +5,8 @@
 // the 2nd parameter is an array of 'requires'
 var app = angular.module('shitu', [
   'ionic',
-  'shitu.routes'
+  'shitu.routes',
+  'shitu.controllers'
 ])
 
 var shitu = shitu || {};
